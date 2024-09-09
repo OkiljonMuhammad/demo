@@ -10,4 +10,4 @@ with open("raqamlar.txt", "r") as f:
     mylist = numbers.split()
     mylist = list(map(lambda x: int(x), mylist))
     result = sum(mylist)
-print(result)
+print(f"Natija: {result}")
